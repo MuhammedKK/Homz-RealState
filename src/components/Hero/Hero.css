@@ -1,0 +1,79 @@
+.hero-wrapper {
+    color: #FFF;
+    position: relative;
+    padding: 0 0 2rem;
+    background-color: var(--black);
+}
+#hero-container {
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.hero-content {
+    margin: 0 20px;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title>h1 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    line-height: 4rem;
+}
+.hero-title .orange-circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: var(--orange);
+    position: absolute;
+    right: 55%;
+    top: 0%;
+    z-index: -1;
+}
+
+.hero-desc {
+    margin-top: 20px;
+    font-size:1.1rem;
+    line-height: 1.8rem;
+}
+
+.search-bar {
+    margin-top: 20px;
+    width: 100%;
+}
+.search-bar .search-container {
+    position: relative;
+}
+.search-bar .search-container input {
+    display: inline-block;
+    width: 80%;
+    padding: 10px 30px;
+}
+
+.search-bar .search-container button {
+    margin-left: -90px;
+}
+
+.img-container {
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);   
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.stats {
+    width: 100%;
+    justify-content: space-between !important;
+    margin: 20px 20px 0 0;
+    text-align: center;
+}
